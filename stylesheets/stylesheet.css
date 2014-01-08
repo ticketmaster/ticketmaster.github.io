@@ -1,0 +1,42 @@
+* {
+    font-family: 'tm_sansregular', arial, sans-serif;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin: 0 0 150px;
+  min-height: 100%;
+  background: url('../images/bg.jpg') no-repeat left bottom;
+}
+
+#header_wrap {
+  background: #000 url('../images/mosaic.png') no-repeat right top;
+  padding: 30px 100px;
+}
+#content_wrap {
+  padding: 30px 100px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+a { color: #d80f13; }
+a.repo { font-weight: bold; }
+
+footer_wrap {
+  position: absolute;
+  bottom: 0;
+  height: 150px;
+}
+
+@font-face {
+  font-family: 'tm_sansregular';
+  src: url('../fonts/tmsans-regular-webfont.eot');
+  src: url('../fonts/tmsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/tmsans-regular-webfont.woff') format('woff'),                                                       
+       url('../fonts/tmsans-regular-webfont.ttf') format('truetype'),
+       url('../fonts/tmsans-regular-webfont.svg#tm_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
