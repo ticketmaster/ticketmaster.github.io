@@ -1,33 +1,104 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>code.ticketmaster.com - Ticketmaster &amp; Live Nation Entertainment Open Source</title>
-  <meta charset='utf-8' />
-  <meta name="description" content="Ticketmaster &amp; Live Nation Entertainment Open Source Projects" />
-  <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-</head>
-
-<body>
-
-<div id="header_wrap">
-  <header><img id="logo" src="images/logo.png" /></header>
-</div>
-
-<div id="content_wrap">
-  <article>
-  <h1>Welcome to the official home for our Open Source projects</h1>
-  <p>Ticketmaster/LNE is powered by Open Source software. We're committed to giving back to the FOSS community, and we've chosen <a href="//github.com/Ticketmaster">GitHub</a> in order to make collaborating on projects as simple as possible.</p>
-  <p><a href="//github.com/Ticketmaster/metrilyx-2.0" class="repo">Metrilyx</a> is a dashboard UI for the amazing <a href="http://opentsdb.net/">OpenTSDB</a>, a time series database which can be used to store huge numbers of host and application metrics.  Metrilyx provides a fully-customizable interface for browsing and searching your data, with a focus on creating reusable containers for grouping.  Dashboards can be linked for drill-down, graphs can be zoomed and data exported.  Dashboards are stored as JSON and can be edited within the browser.</p>
-
-  <p><a href="//github.com/Ticketmaster/onall" class="repo">Onall</a> is a tool to help admin large numbers of systems. Onall allows hostnames to be piped into STDIN and commands to be run (via ssh) on all piped systems in parallel. Command line options allow configuring the number of sequential hosts, the timeout and time between batches.</p>
-
-  <p>Other projects and code snippets are available in our <a href="//github.com/Ticketmaster/" class="repo">GitHub repositories</a>.</p>
-  </article>
-</div>
-
-<div id="footer_wrap">
-  <footer></footer>
-</div>
-
-</body>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Ticketmaster / Open Source</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  </head>
+  <body>
+    <header id="top">
+        <a href="http://code.ticketmaster.com"><h1 id="logo">Ticketmaster / Open Source</h1></a>
+    <div class="row">
+      <div class="large 12 columns">
+        <h2 class="subheader">Ticketmaster/LNE is powered by Open Source software. We're committed to giving back to the FOSS community, and we've chosen <a href="http://github.com/ticketmaster">GitHub</a> in order to make collaborating on projects as simple as possible.</h2>
+      </div>
+    </div>        
+    </header>
+    <nav class="menu" id="navigation">
+      <div class="row">
+        <a id="nav-logo" href="#top"><span>Ticketmaster Open Source</span></a>
+        <a class="nav-link" href="#android-projects">ANDROID</a>
+        <a class="nav-link" href="#backend-projects">BACKEND</a>
+        <a class="nav-link" href="#iOS-projects">iOS</a>
+        <a class="nav-link" href="#web-projects">WEB</a>
+      </div>
+    </nav>
+    <div id="android-projects" class="row project-cat">
+      <div class="title_rule"><h3 id="android">Android</h3></div>        
+      <div class="large-12 columns project featured">
+        <a href="https://github.com/twotoasters/SectionCursorAdapter"><h4>SectionCursorAdapter</h4>
+        <small>Apache License V2.0</small>
+        <p>SectionCursorAdapter adds sections and fast scroll to CursorAdapter as an easily implementable feature.</p></a>
+      </div>   
+      <div class="large-6 medium-6 columns project">
+        <a href="https://github.com/twotoasters/servos"><h4>Servos</h4>
+        <small>Apache License V2.0</small>
+        <p>A repo for small utilities that we often use in Android development. They are conveniently broken up into small modules for à la carte use.</p></a>
+      </div>       
+      <div class="large-6 medium-6 columns project end">
+        <a href="https://github.com/twotoasters/JazzyListView"><h4>JazzyListView</h4>
+        <small>Apache License V2.0</small>  
+        <p>JazzyListView is an extension of ListView designed to animate list item views as they become visible.</p></a>
+      </div>         
+    </div>
+    <div id="backend-projects"class="row project-cat">
+      <div class="title_rule"><h3 id="backend">Backend</h3></div>
+      <div class="large-12 columns project featured">
+          <a href="https://github.com/Ticketmaster/tmps-metrics"><h4>TMPS-Metrics</h4>
+          <small>Apache License V2.0</small>
+          <p>Metrics is a Java library which will instrument a web-service or process and push performance metrics out to OpenTSDB.</p></a>
+      </div>       
+      <div class="large-12 columns project featured">
+          <a href="https://github.com/Ticketmaster/metrilyx-2.0"><h4>Metrilyx</h4>
+          <small>Apache License V2.0</small>
+          <p>Metrilyx is a web based dashboard engine to OpenTSDB, a time series database used to store large amounts of data. It allows for analyzing, cross cutting and viewing of time series data in a simple manner.</p></a>
+      </div>         
+    </div>
+    <div id="iOS-projects"class="row project-cat">
+      <div class="title_rule"><h3 id="iOS">iOS</h3></div>
+      <div class="large-12 columns project featured">
+          <a href="https://github.com/twotoasters/URLMock"><h4>URLMock</h4>
+          <small>MIT License</small>
+          <p>A Cocoa framework for mocking and stubbing URL requests and responses.</p></a>
+      </div>         
+      <div class="large-6 medium-6 columns project">
+        <a href="https://github.com/twotoasters/Task">
+          <h4>Task</h4>
+          <small>MIT License</small>
+          <p>A Cocoa framework for expressing and executing your app’s workflows.</p></a>
+      </div>               
+      <div class="large-6 medium-6 columns project">
+          <a href="https://github.com/twotoasters/Toast"><h4>Toast</h4>
+          <small>MIT License</small>
+          <p>A repo for small utilities we use in Cocoa Development. Conveniently broken up into small subspecs for à la carte use.</p></a>
+      </div>               
+      <div class="large-6 medium-6 columns project end">
+          <a href="https://github.com/twotoasters/TWTValidation"><h4>TWTValidation</h4>
+          <small>MIT License</small>
+          <p>TWTValidation is a Cocoa framework for declaratively validating data.</p></a>
+      </div>         
+    </div>
+    <div id="web-projects"class="row project-cat">
+      <div class="title_rule"><h3 id="web">Web</h3></div>
+      <div class="large-12 columns project featured">
+        <a href="https://github.com/Ticketmaster/metrilyx-2.0"><h4>Metrilyx</h4>
+        <p>Metrilyx is a web based dashboard engine to OpenTSDB, a time series database used to store large amounts of data. It allows for analyzing, cross cutting and viewing of time series data in a simple manner.</p></a>
+      </div>         
+    </div>    
+    <footer>
+      <h3 class="row">Interested in working with the team? See <a href="http://www.livenationentertainment.com/careers">our careers page</a> at Live Nation Entertainment.</h3>
+    </footer>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/sticky.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
 </html>
