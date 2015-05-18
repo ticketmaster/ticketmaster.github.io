@@ -42,11 +42,11 @@ a:hover {
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;
-	transition: all 0.2s ease;	
+	transition: all 0.2s ease;
 }
 
 .row {
-	max-width: 45.18441418rem;
+	max-width: 49.18441418rem;
 }
 
 /* Header */
@@ -125,7 +125,7 @@ nav a:hover {
 h3#android {
 	background-image: url("../img/bugdroid_logo.svg");
 	height: 2.859649123em;
-	width: 2em;		
+	width: 2em;
 }
 
 h3#backend {
@@ -136,13 +136,13 @@ h3#backend {
 h3#iOS {
 	background-image: url("../img/apple_logo.svg");
 	height: 2.45em;
-	width: 2em;		
+	width: 2em;
 }
 
 h3#web {
 	background-image: url("../img/web.svg");
 	height: 2.45em;
-	width: 2em;		
+	width: 2em;
 }
 
 .project {
@@ -208,7 +208,7 @@ footer h3 {
 }
 
 /* Breakpoints */
-@media only screen and (min-width: 40em) { 
+@media only screen and (min-width: 40em) {
 	body {
 		font-size: 14px;
 	}
@@ -246,7 +246,7 @@ footer h3 {
 		width: 18.6%;
 	}
 }
-@media only screen and (min-width: 62.5em) { 
+@media only screen and (min-width: 62.5em) {
 		nav a.nav-link {
 			width: 24.7%;
 		}
