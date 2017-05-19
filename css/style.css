@@ -2,22 +2,22 @@
 @font-face {
   font-family: 'Source Sans Pro';
   font-weight: 100;
-  src: url('.../fonts/SourceSansPro-Light.ttf');
+  src: url('../fonts/SourceSansPro-Light.ttf');
 }
 @font-face {
   font-family: 'Source Sans Pro';
   font-weight: normal;
-  src: url('.../fonts/SourceSansPro-Regular.ttf');
+  src: url('../fonts/SourceSansPro-Regular.ttf');
 }
 @font-face {
   font-family: 'Source Sans Pro';
   font-weight: bold;
-  src: url('.../fonts/SourceSansPro-Bold.ttf');
+  src: url('../fonts/SourceSansPro-Bold.ttf');
 }
 @font-face {
   font-family: 'Source Sans Pro';
   font-weight: 800;
-  src: url('.../fonts/SourceSansPro-Black.ttf');
+  src: url('../fonts/SourceSansPro-Black.ttf');
 }
 
 /* Global*/
